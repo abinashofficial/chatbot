@@ -6,16 +6,10 @@
 
   "2fa": "Strengthen account security with robust two-factor authentication that adds an extra layer of protection beyond passwords. Our 2FA solutions support OTPs, authenticator apps, and multi-device verification to prevent unauthorized access. Designed for reliability and ease of use, it safeguards user data, reduces fraud risks, and builds trust across your digital platforms.",
     "Two Factor Authentication": "Strengthen account security with robust two-factor authentication that adds an extra layer of protection beyond passwords. Our 2FA solutions support OTPs, authenticator apps, and multi-device verification to prevent unauthorized access. Designed for reliability and ease of use, it safeguards user data, reduces fraud risks, and builds trust across your digital platforms.",
-"payment integration":"Enable fast, secure, and seamless digital transactions with reliable payment integration solutions. We integrate trusted payment gateways to support multiple payment methods, real-time processing, and automated invoicing. Built with security and scalability in mind, our solutions ensure smooth checkout experiences, reduce payment failures, and help businesses get paid effortlessly.",
   "payment":"Enable fast, secure, and seamless digital transactions with reliable payment integration solutions. We integrate trusted payment gateways to support multiple payment methods, real-time processing, and automated invoicing. Built with security and scalability in mind, our solutions ensure smooth checkout experiences, reduce payment failures, and help businesses get paid effortlessly.",
 
-  "Customer Reviews & Ratings":"Customer Reviews & Ratings is a platform that collects, manages, and displays feedback from customers about products or services. It allows users to submit ratings, write reviews, and share experiences, while businesses can monitor and respond to feedback. The system provides analytics to track satisfaction trends and identify improvement areas. This enhances customer trust, engagement, and service quality.",
   "ecommerce": "We build secure and scalable e-commerce platforms.",
   "reviews":"Customer Reviews & Ratings is a platform that collects, manages, and displays feedback from customers about products or services. It allows users to submit ratings, write reviews, and share experiences, while businesses can monitor and respond to feedback. The system provides analytics to track satisfaction trends and identify improvement areas. This enhances customer trust, engagement, and service quality.",
-
-  "E-Commerce":"Launch a powerful online store with our e-commerce development services. We create secure, scalable, and high-performing e-commerce platforms tailored to your business needs, equipped with features like payment integration, inventory management, and customer-centric UX for a seamless shopping experience.",
-  "e commerce":"Launch a powerful online store with our e-commerce development services. We create secure, scalable, and high-performing e-commerce platforms tailored to your business needs, equipped with features like payment integration, inventory management, and customer-centric UX for a seamless shopping experience.",
-
 
   "inventory": "Inventory Management tracks stock levels, procurement, storage, and replenishment in real time.",
     "Inventory Management": "Inventory Management tracks stock levels, procurement, storage, and replenishment in real time.",
@@ -43,6 +37,8 @@
 
 
   
+
+    "price of the": "Our pricing plans are Free ($0), Business ($29/month), and Developer ($49/month).",
 
   "pricing": "Our pricing plans are Free ($0), Business ($29/month), and Developer ($49/month).",
   "plan": "Available plans are Free, Business, and Developer.",
@@ -90,7 +86,6 @@
 
   "shindentech": "We are Shindentech, a technology-driven company focused on innovation and empowering businesses through digital solutions.",
   "company": "We are a digital technology company helping organizations unlock their full potential through creative strategy and advanced solutions.",
-  "your company": "We are a digital technology company helping organizations unlock their full potential through creative strategy and advanced solutions.",
 
 
 
@@ -157,7 +152,13 @@
   "human": "Sure 👍 Please call +91 9940463927 to speak with our team.",
 
 
-  "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, demo, or support?"
-
-
+  "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, demo, or support?",
+"smart booking": "Users can book appointments through our platform, which automatically adds the event to Google Calendar and notifies the owners.",
+"genzy qr code": "Modernize customer interactions with fast, convenient QR codes. Create dynamic, customizable codes for payments, menus, websites, bookings, and promotions—with real-time analytics and easy updates.",
+"ai chat bot":"Enhance customer engagement with an intelligent chatbot that provides instant support, answers questions accurately, automates lead qualification, and integrates seamlessly with your business systems—24/7.",
+"digital marketing":"Accelerate business growth with data-driven digital marketing solutions that boost visibility, engagement, and conversions—combining SEO, SEM, content marketing, and social media strategies.",
+"two factor authentication":"Enhance account security with 2FA. Our solution adds an extra layer of protection using OTPs, authenticator apps, and multi-device verification to prevent unauthorized access.",
+"payment integration":"Enable fast and secure digital transactions with trusted payment gateways. Support multiple payment methods, real-time processing, and automated invoicing for a smooth checkout experience.",
+"customer reviews & ratings":"Showcase authentic customer experiences. Gather ratings and reviews, respond seamlessly, and track insights to boost engagement, satisfaction, and brand trust.",
+"E-Commerce":"Power your online store with a secure, scalable, and user-friendly platform. Enjoy smooth payments, efficient inventory management, and a shopping experience that delights customers."
 }
