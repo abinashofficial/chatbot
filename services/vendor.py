@@ -4,7 +4,7 @@ VENDORS = {
     "9940": {
         "company": "Shindentech",
         "phone": "+91 9940463927",
-        "bot_name": "Shinden AI",
+        "bot_name": "Neha",
         "json_file": "shindentech.json"
     },
     "1020": {

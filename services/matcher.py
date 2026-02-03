@@ -2,11 +2,11 @@ from rapidfuzz import process, fuzz, utils
 import json
 
 KEYWORD_INTENTS = {
-    "hi": "Hello 👋 Welcome to {company}. How can I help you today?",
-    "hello": "Hi there 👋 Welcome to {company}. How can I assist you today?",
+    "hi": "Hello 👋. How can I help you today?",
+    "hello": "Hi there 👋. How can I assist you today?",
     "hey": "Welcome to {company}. How can I help you today?",
 
-    "good morning": "Good morning ☀️ Welcome to {company}. How can I help?",
+    "good morning": "Good morning ☀️. How can I help?",
     "good afternoon": "Good afternoon 😊 How can {company} assist you?",
     "good evening": "Good evening 🌙 How can I help you today?",
 
