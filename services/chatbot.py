@@ -1,6 +1,6 @@
 from functools import lru_cache
 from services.vendor import VENDORS
-from services.matcher import keyword_match, fuzzy_match
+from services.matcher import keyword_match, fuzzy_match, word_match
 
 @lru_cache(maxsize=200)
 def chatbot_reply(message: str, vendor_id: str):
@@ -8,6 +8,9 @@ def chatbot_reply(message: str, vendor_id: str):
 
     if not vendor:
         return "❌ Invalid vendor ID", 0
+    
+    message = word_match(message)
+
 
     # Keyword
     kw = keyword_match(message, vendor)
