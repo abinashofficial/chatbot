@@ -9,16 +9,15 @@ def chatbot_reply(message: str, vendor_id: str):
     if not vendor:
         return "❌ Invalid vendor ID", 0
     
-    message = word_match(message)
-
-
-    # Keyword
-    kw = keyword_match(message, vendor)
-    if kw:
-        return kw, 100
+    matched_msg, ok = word_match(message, vendor)
+    if ok == False:
+        # Keyword
+        kw = keyword_match(matched_msg, vendor)
+        if kw:
+            return kw, 100
 
     # Fuzzy
-    q, answer, score = fuzzy_match(message, vendor["json_file"])
+    q, answer, score = fuzzy_match(matched_msg, vendor["json_file"])
 
     if score > 45:
         return answer, score

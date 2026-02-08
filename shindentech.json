@@ -65,16 +65,16 @@
   
   "solution": "We provide digital business solutions including websites, cloud apps, marketing, ERP systems, booking platforms, and technical support.",
   "custom": "Yes, our services are tailored to business goals to deliver measurable results and better customer experience.",
-
-
-
-
-
-
-
-  "services": "Our services include web development, cloud apps, marketing, ERP, booking systems, and technical support.",
-    "service": "Our services include web development, cloud apps, marketing, ERP, booking systems, and technical support.",
-
+    "services": {
+      "form":{
+      "Web Development":"We provide responsive and scalable web development services.",
+      "Cloud Applications":"Leverage the power of the cloud with our secure and scalable applications. Our solutions ensure seamless performance, accessibility, and flexibility, helping your business operate efficiently from anywhere.",
+      "Digital Marketing":"Drive engagement and growth with our data-driven marketing strategies. From SEO and social media campaigns to content marketing, we help your brand reach the right audience and achieve measurable results.",
+      "Enterprise Resource Platform":"Streamline your business operations with our custom ERP solutions. From finance to inventory and HR management, our platforms optimize workflows, improve efficiency, and support data-driven decision-making.",
+      "Technical Support":"Ensure uninterrupted operations with our reliable 24/7 technical support. Our expert team quickly resolves issues, optimizes performance, and keeps your business running smoothly."
+    },
+    "message":"Our services include web development, cloud apps, marketing, ERP, booking systems, and technical support and more."
+  },
   "web": "We provide responsive and scalable web development services.",
   "cloud": "We build secure and scalable cloud applications.",
   "erp": "Enterprise Resource Platform is a custom ERP system that manages finance, inventory, HR, and operations in one platform.",
@@ -85,7 +85,7 @@
 
 
 
-  "shindentech": "We are Shindentech, a technology-driven company focused on innovation and empowering businesses through digital solutions.",
+  "shindentech": "Shindentech is a technology solutions company focused on helping businesses grow through digital transformation. We offer services such as web development, cloud applications, digital marketing, ERP solutions, and 24/7 technical support to help organizations improve their online presence and streamline operations. Based in Chennai, India, Shindentech provides flexible pricing plans ranging from a free basic option to advanced developer and business packages.",
   "company": "We are a digital technology company helping organizations unlock their full potential through creative strategy and advanced solutions.",
 
 
@@ -147,10 +147,23 @@
 
   "cost": "Pricing starts from $0/month with our Free Plan.",
 
-  "products": "We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more.",
+  "product": "We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more.",
 
 
   "human": "Sure 👍 Please call +91 9940463927 to speak with our team.",
+  "products":{"form":{
+    "Smart Booking": "Users can book appointments through our platform, which automatically adds the event to Google Calendar and notifies the owners.",
+"Genzy QR Code": "Modernize customer interactions with fast, convenient QR codes. Create dynamic, customizable codes for payments, menus, websites, bookings, and promotions—with real-time analytics and easy updates.",
+"AI Chat Bot":"Enhance customer engagement with an intelligent chatbot that provides instant support, answers questions accurately, automates lead qualification, and integrates seamlessly with your business systems—24/7.",
+"Digital Marketing":"Accelerate business growth with data-driven digital marketing solutions that boost visibility, engagement, and conversions—combining SEO, SEM, content marketing, and social media strategies.",
+"Two Factor Authentication":"Enhance account security with 2FA. Our solution adds an extra layer of protection using OTPs, authenticator apps, and multi-device verification to prevent unauthorized access.",
+"Payment Integration":"Enable fast and secure digital transactions with trusted payment gateways. Support multiple payment methods, real-time processing, and automated invoicing for a smooth checkout experience.",
+"Customer Reviews & Ratings":"Showcase authentic customer experiences. Gather ratings and reviews, respond seamlessly, and track insights to boost engagement, satisfaction, and brand trust.",
+"E-Commerce":"Power your online store with a secure, scalable, and user-friendly platform. Enjoy smooth payments, efficient inventory management, and a shopping experience that delights customers."
+
+  },
+  "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
+},
 
 
   "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, demo, or support?",

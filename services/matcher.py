@@ -29,15 +29,15 @@ KEYWORD_INTENTS = {
 
 
 
-Quick_INTENTS =  ["price", "cost"]
 
 
-def word_match(message):
-    for item in Quick_INTENTS:
+def word_match(message, vendor):
+    intents = vendor.get("quick_intents", "")
+    for item in intents:
         if item in message:
-            return item
+            return item, True
         
-    return message
+    return message, False
 
 
 

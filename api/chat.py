@@ -12,8 +12,19 @@ async def chat_endpoint(request: Request):
     vendor_id = data.get("vendorId", "")  # from React
 
     reply, confidence = chatbot_reply(message, vendor_id)
+    msg = ""
+    form = None
+    if type(reply)==str:
+        msg = reply
+    else:
+        msg = reply["message"]
+        form = reply["form"]
 
     return JSONResponse({
-        "response": reply,
+        "response": {
+            "message":msg,
+            "form":form,
+            },
         "confidence": confidence
+
     })
