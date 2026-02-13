@@ -7,7 +7,7 @@ VENDORS = {
         "bot_name": "Neha",
         "json_file": "shindentech.json",
         "description":"",
-        "quick_intents" :  ["price", "cost", "shindentech", "services", "products"],
+        "quick_intents" :  ["price", "cost", "shindentech", "service", "product"],
 
     },
     "1020": {

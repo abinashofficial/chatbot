@@ -19,9 +19,9 @@ def chatbot_reply(message: str, vendor_id: str):
     # Fuzzy
     q, answer, score = fuzzy_match(matched_msg, vendor["json_file"])
 
-    if score > 45:
+    if score > 60:
         return answer, score
-    elif score >= 35:
+    elif score >= 50:
         return f"Did you mean: '{q}'?", score
 
-    return "🤖 Sorry, I didn’t understand.", score
+    return "I’m sorry, I don’t have an answer to that right now. You can contact us directly for support: 📞 Phone: +91 9940463927, ✉️ Email: shindentechnologies@gmail.com", score
