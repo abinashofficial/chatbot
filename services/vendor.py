@@ -7,6 +7,7 @@ VENDORS = {
         "bot_name": "Neha",
         "json_file": "shindentech.json",
         "description":"",
+        "email":"shindentechnologies@gmail.com",
         "quick_intents" :  ["price", "cost", "shindentech", "service", "product"],
 
     },
@@ -16,6 +17,8 @@ VENDORS = {
         "bot_name": "Minsway AI Assistant",
         "json_file": "minsway.json",
         "description":"",
+         "email":"contact@minswaysolutions.com",
+
         "quick_intents" :  ["price", "cost", "minsway solutions"],
 
 
