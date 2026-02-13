@@ -24,4 +24,4 @@ def chatbot_reply(message: str, vendor_id: str):
     elif score >= 50:
         return f"Did you mean: '{q}'?", score
 
-    return f"You can contact us directly for support: 📞 Phone: {vendor.get("phone", "")}, ✉️ Email: {vendor.get("email", "")}", score
+    return vendor.get("contact",f"You can contact us directly for support: 📞 Phone: {vendor.get("phone", "")}, ✉️ Email: {vendor.get("email", "")}"), score

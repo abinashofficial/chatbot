@@ -9,7 +9,14 @@ VENDORS = {
         "description":"",
         "email":"shindentechnologies@gmail.com",
         "quick_intents" :  ["price", "cost", "shindentech", "service", "product"],
+            "contact": {
+      "form":{
+      "📞 Phone:":"91 9940463927",
+      "✉️ Email: ":"shindentechnologies@gmail.com"
+    },
+    "message":"You can contact us directly for support:",
 
+    }
     },
     "1020": {
         "company": "Minsway Solutions",
