@@ -7,21 +7,21 @@ def chatbot_reply(message: str, vendor_id: str):
     vendor = VENDORS.get(vendor_id)
 
     if not vendor:
-        return "❌ Invalid vendor ID", 0
+        return "❌ Invalid vendor ID", 0, ""
     
     matched_msg, ok = word_match(message, vendor)
     if ok == False:
         # Keyword
         kw = keyword_match(matched_msg, vendor)
         if kw:
-            return kw, 100
+            return kw, 100, ""
 
     # Fuzzy
     q, answer, score = fuzzy_match(matched_msg, vendor["json_file"])
 
     if score > 60:
-        return answer, score
+        return answer, score, ""
     elif score >= 50:
-        return f"Did you mean: '{q}'?", score
+        return f"Did you mean: '{q}'?", score, q
 
-    return vendor.get("contact",f"You can contact us directly for support: 📞 Phone: {vendor.get("phone", "")}, ✉️ Email: {vendor.get("email", "")}"), score
+    return vendor.get("contact",f"You can contact us directly for support: 📞 Phone: {vendor.get("phone", "")}, ✉️ Email: {vendor.get("email", "")}"), score, ""

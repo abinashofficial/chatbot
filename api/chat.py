@@ -3,20 +3,23 @@ from fastapi.responses import JSONResponse
 from services.chatbot import chatbot_reply
 import os
 import tempfile
-import whisper
+from faster_whisper import WhisperModel
 
 router = APIRouter()
-model = whisper.load_model("tiny")  # You can use tiny, base, small, medium, large
+# model = whisper.load_model("tiny")  # You can use tiny, base, small, medium, large
+model = WhisperModel("tiny", device="cpu", compute_type="int8")
+
 
 
 @router.post("/chat")
 async def chat_endpoint(request: Request):
     data = await request.json()
+    q = ""
 
     message = data.get("message", "")
     vendor_id = data.get("vendorId", "")  # from React
 
-    reply, confidence = chatbot_reply(message, vendor_id)
+    reply, confidence, q = chatbot_reply(message, vendor_id)
     msg = ""
     form = None
     if type(reply)==str:
@@ -30,7 +33,8 @@ async def chat_endpoint(request: Request):
             "message":msg,
             "form":form,
             },
-        "confidence": confidence
+        "confidence": confidence,
+        "keyword":q
 
     })
 
@@ -40,17 +44,16 @@ async def transcribe(file: UploadFile = File(...)):
     tmp_path = None
 
     try:
-        # Save uploaded WebM file temporarily
         with tempfile.NamedTemporaryFile(delete=False, suffix=".webm") as tmp:
             tmp_path = tmp.name
             content = await file.read()
             tmp.write(content)
-            tmp.flush()
 
-        # Whisper handles WebM/Opus internally
-        result = model.transcribe(tmp_path, fp16=False)
+        segments, info = model.transcribe(tmp_path)
 
-        return {"text": result["text"]}
+        text = "".join([segment.text for segment in segments])
+
+        return {"text": text}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

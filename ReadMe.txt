@@ -3,3 +3,8 @@
 //venv\Scripts\activate
 //python.exe -m pip install --upgrade pip
 //python -m pip freeze > requirements.txt
+
+
+//docker build -t chatbot .
+//docker run -p 80:80 chatbot
+
