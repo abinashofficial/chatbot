@@ -8,7 +8,7 @@ VENDORS = {
         "json_file": "shindentech.json",
         "description":"",
         "email":"shindentechnologies@gmail.com",
-        "quick_intents" :  ["price", "cost", "shindentech", "service", "product"],
+        "quick_intents" :  ["price", "cost", "shindentech", "service", "product", "company"],
             "contact": {
       "form":{
       "📞 Phone:":"📞 +91 9940463927",
