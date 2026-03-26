@@ -4,12 +4,7 @@
 
 
 
-  "2fa": "Strengthen account security with robust two-factor authentication that adds an extra layer of protection beyond passwords. Our 2FA solutions support OTPs, authenticator apps, and multi-device verification to prevent unauthorized access. Designed for reliability and ease of use, it safeguards user data, reduces fraud risks, and builds trust across your digital platforms.",
-    "Two Factor Authentication": "Strengthen account security with robust two-factor authentication that adds an extra layer of protection beyond passwords. Our 2FA solutions support OTPs, authenticator apps, and multi-device verification to prevent unauthorized access. Designed for reliability and ease of use, it safeguards user data, reduces fraud risks, and builds trust across your digital platforms.",
-  "payment":"Enable fast, secure, and seamless digital transactions with reliable payment integration solutions. We integrate trusted payment gateways to support multiple payment methods, real-time processing, and automated invoicing. Built with security and scalability in mind, our solutions ensure smooth checkout experiences, reduce payment failures, and help businesses get paid effortlessly.",
 
-  "ecommerce": "We build secure and scalable e-commerce platforms.",
-  "reviews":"Customer Reviews & Ratings is a platform that collects, manages, and displays feedback from customers about products or services. It allows users to submit ratings, write reviews, and share experiences, while businesses can monitor and respond to feedback. The system provides analytics to track satisfaction trends and identify improvement areas. This enhances customer trust, engagement, and service quality.",
 
   "inventory": "Inventory Management tracks stock levels, procurement, storage, and replenishment in real time.",
     "Inventory Management": "Inventory Management tracks stock levels, procurement, storage, and replenishment in real time.",
@@ -67,11 +62,11 @@
   "custom": "Yes, our services are tailored to business goals to deliver measurable results and better customer experience.",
     "services": {
       "form":{
-      "Web Development":"We provide responsive and scalable web development services.",
-      "Cloud Applications":"Leverage the power of the cloud with our secure and scalable applications. Our solutions ensure seamless performance, accessibility, and flexibility, helping your business operate efficiently from anywhere.",
-      "Digital Marketing":"Drive engagement and growth with our data-driven marketing strategies. From SEO and social media campaigns to content marketing, we help your brand reach the right audience and achieve measurable results.",
-      "Enterprise Resource Platform":"Streamline your business operations with our custom ERP solutions. From finance to inventory and HR management, our platforms optimize workflows, improve efficiency, and support data-driven decision-making.",
-      "Technical Support":"Ensure uninterrupted operations with our reliable 24/7 technical support. Our expert team quickly resolves issues, optimizes performance, and keeps your business running smoothly."
+      "Web Development":"web development",
+      "Cloud Applications":"cloud applications",
+      "Digital Marketing":"digital marketing",
+      "Enterprise Resource Platform":"enterprise resource platform",
+      "Technical Support":"technical support"
     },
     "message":"Our services include web development, cloud apps, marketing, ERP, booking systems, and technical support and more."
   },
@@ -154,19 +149,29 @@
 
   "human": "Sure 👍 Please call +91 9940463927 to speak with our team.",
   "products":{"form":{
-    "Smart Booking": "Users can book appointments through our platform, which automatically adds the event to Google Calendar and notifies the owners.",
-"Genzy QR Code": "Modernize customer interactions with fast, convenient QR codes. Create dynamic, customizable codes for payments, menus, websites, bookings, and promotions—with real-time analytics and easy updates.",
-"AI Chat Bot":"Enhance customer engagement with an intelligent chatbot that provides instant support, answers questions accurately, automates lead qualification, and integrates seamlessly with your business systems—24/7.",
-"Digital Marketing":"Accelerate business growth with data-driven digital marketing solutions that boost visibility, engagement, and conversions—combining SEO, SEM, content marketing, and social media strategies.",
-"Two Factor Authentication":"Enhance account security with 2FA. Our solution adds an extra layer of protection using OTPs, authenticator apps, and multi-device verification to prevent unauthorized access.",
-"Payment Integration":"Enable fast and secure digital transactions with trusted payment gateways. Support multiple payment methods, real-time processing, and automated invoicing for a smooth checkout experience.",
-"Customer Reviews & Ratings":"Showcase authentic customer experiences. Gather ratings and reviews, respond seamlessly, and track insights to boost engagement, satisfaction, and brand trust.",
-"E-Commerce":"Power your online store with a secure, scalable, and user-friendly platform. Enjoy smooth payments, efficient inventory management, and a shopping experience that delights customers."
+    "Smart Booking": "smart booking",
+"Genzy QR Code": "genzy qr code",
+"AI Chat Bot":"ai chat bot",
+"Digital Marketing":"digital marketing",
+"Two Factor Authentication":"two factor authentication",
+"Payment Integration":"payment integration",
+"Customer Reviews & Ratings":"customer reviews & ratings",
+"E-Commerce":"e-commerce"
 
   },
   "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
 },
 
+  "home":{"form":{
+    "Services": "Services",
+"Products": "Products",
+"Price":"Price",
+"Contact US":"contact",
+
+"About US":"shindentech"
+  },
+  "message":"Hello 👋 Welcome to Shindentech. How can I help you today?"
+},
 
   "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, demo, or support?",
 "smart booking": "Users can book appointments through our platform, which automatically adds the event to Google Calendar and notifies the owners.",
