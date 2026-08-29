@@ -11,11 +11,11 @@ VENDORS = {
         "quick_intents" :  ["price", "cost", "shindentech", "service", "product", "company"],
             "contact": {
       "form":{
-      "📞 Phone:":"📞 +91 9940463927",
-    "🟢 WhatsApp:":"🟢 +91 9940463927",
+      "📞 Phone:":"phone",
+    "🟢 WhatsApp:":"whatsapp",
 
-      "✉️ Email: ":"✉️ shindentechnologies@gmail.com",
-    "📍Address: ": "📍 Our office is located at 2/341, 2nd St, Veeramani Nagar, Kovilambakkam, Chennai, Tamil Nadu 600117.",
+      "✉️ Email: ":"email",
+    "📍Address: ": "address",
 
     },
     "message":"You can contact us directly for support:",
