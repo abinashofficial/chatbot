@@ -1,0 +1,103 @@
+{
+
+
+  "abirami": "At Abirami Chinnasamy, Advocate, we are committed to providing reliable, practical, and client-focused legal guidance. Our approach combines professional expertise, clear communication, and a strong commitment to protecting our clients’ rights and interests.",
+  
+  "contact": "You can contact us by phone at +91 9363783642 or email at cabirami1131@gmail.com.",
+  
+  "phone": "You can call us at +91 9363783642.",
+    "mobile": "You can call us at +91 9363783642.",
+      "whatsapp": "You can WhatsApp us at +91 9363783642.",
+
+
+  "phone number": "Our phone number is +91 9363783642.",
+    "mobile number": "Our phone number is +91 9363783642.",
+
+  "call support": "You can reach our support team at +91 9363783642.",
+  "customer care number": "Our customer care number is +91 9363783642.",
+
+  "email": "You can email us at cabirami1131@gmail.com.",
+  "email address": "Our email address is cabirami1131@gmail.com.",
+  "support email": "For support, email us at cabirami1131@gmail.com.",
+  "send mail": "Please send your queries to cabirami1131@gmail.com.",
+
+  "address": "Our office is located at 2/341, 2nd St, Veeramani Nagar, Kovilambakkam, Chennai, Tamil Nadu 600129.",
+  "office address": "W5VJ+953, 2nd St, Veeramani Nagar, Kovilambakkam, Chennai, Tamil Nadu 600129.",
+  "location": "We are located in Kovilambakkam, Chennai, Tamil Nadu.",
+  "located": "We are located at W5VJ+953, 2nd St, Veeramani Nagar, Kovilambakkam, Chennai, Tamil Nadu 600129.",
+
+  "office": "You can visit our office at Veeramani Nagar, Kovilambakkam, Chennai.",
+  "enquiry": "For business enquiries, contact us at +91 9363783642 or cabirami1131@gmail.com.",
+  
+  "hi": "Hello 👋 I'm Abi AI Assistant. How can I help you today?",
+  "hello": "Hi there 👋 How can I assist you today?",
+  "hey": "Hey 👋 How can I help you with our services or products?",
+
+
+
+  "help": "Sure 👍 I can help with services, pricing, demo, products, booking, support, and contact details. What do you need?",
+
+  "thanks": "You're welcome 😊 Happy to help!",
+  "thank you": "You're welcome 🙌",
+  "thx": "Anytime 👍",
+  "ok": "Great 👍 What would you like to explore next?",
+  "okay": "Sure 👍 Tell me what you need.",
+
+  "bye": "Goodbye 👋 Have a great day!",
+  "goodbye": "Goodbye 👋 Feel free to return anytime.",
+  "see you": "See you soon 👋",
+
+  "yes": "Great 👍 Please continue.",
+  "yeah": "Okay 👍 Go ahead.",
+  "yep": "Got it 👍",
+  "no": "No problem 👍 Let me know what you need instead.",
+
+  "demo": "We offer product demos. Would you like to schedule a demo booking?",
+
+
+
+  "human": "Sure 👍 Please call +91 9363783642 to speak with our team.",
+  "practice_areas":{"form":{
+    "Family Law": "smart booking",
+"Business Law": "genzy qr code",
+"Insurance Law":"ai chat bot",
+"Criminal Law":"digital marketing",
+"Property Law":"two factor authentication",
+"Employment Law":"payment integration",
+"Financial Law":"customer reviews & ratings"
+  },
+  "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
+},
+
+  "case_studies":{"form":{
+    "Motor Vehicle Accident": "Motor Vehicle Accident",
+"Family & Health Law": "Family & Health Law",
+"Insurance Disputes":"Insurance Disputes",
+"Business & Insolvency Law":"Business & Insolvency Law"
+  },
+  "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
+},
+
+  "home":{"form":{
+    "Practice Areas": "practice_areas",
+"Case Studies": "case_studies",
+"Contact US":"contact",
+
+"About US":"abirami"
+  },
+  "message":"Hello 👋 I'am Abi AI Assistant. How can I help you today?"
+},
+
+  "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, practice areas or case studies?",
+"Family Law": "Legal assistance for matters involving marriage, divorce, child custody, maintenance, and other family-related legal issues.",
+"Business Law":"Legal guidance for businesses on contracts, agreements, disputes, compliance, and other commercial matters.",
+"Insurance Law":"Legal support for insurance claims, policy disputes, coverage issues, and related legal matters.",
+"Criminal Law":"Legal representation and advice for criminal cases, including defense strategies, court proceedings, and legal rights protection.",
+"Property Law":"Legal services for property transactions, disputes, ownership issues, and real estate matters.",
+"Employment Law":"Legal counsel for employment-related matters, including contracts, workplace disputes, labor laws, and employee rights.",
+"Financial Law":"Legal expertise in financial regulations, banking, investment, taxation, and other finance-related legal issues.",
+"Motor Vehicle Accident":"Legal assistance for motor vehicle accident cases, including claims, liability, compensation, and related legal proceedings.",
+"Family & Health Law":"Legal support for family and health-related legal matters, including healthcare rights, medical negligence, and family law issues.",
+"Insurance Disputes":"Legal representation for insurance disputes, including claim denials, policy interpretation, and coverage issues.",
+"Business & Insolvency Law":"Legal guidance for businesses facing insolvency, bankruptcy, restructuring, and related legal challenges, including creditor rights and corporate governance."
+}

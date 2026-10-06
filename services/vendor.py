@@ -33,5 +33,26 @@ VENDORS = {
         "quick_intents" :  ["price", "cost", "minsway solutions"],
 
 
+    },
+        "VEN-EDGRR98R": {
+        "company": "Abirami Chinnasamy",
+        "phone": "+91 9363783642",
+        "bot_name": "Abirami AI Assistant",
+        "json_file": "abirami.json",
+        "description":"",
+        "email":"cabirami1131@gmail.com",
+        "quick_intents" :  ["practice areas", "case studies"],
+            "contact": {
+      "form":{
+      "📞 Phone:":"phone",
+    "🟢 WhatsApp:":"whatsapp",
+
+      "✉️ Email: ":"email",
+    "📍Address: ": "address",
+
+    },
+    "message":"You can contact us directly for support:",
+
+    }
     }
 }
