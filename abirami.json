@@ -58,25 +58,29 @@
 
   "human": "Sure 👍 Please call +91 9363783642 to speak with our team.",
   "practice_areas":{"form":{
-    "Family Law": "smart booking",
-"Business Law": "genzy qr code",
-"Insurance Law":"ai chat bot",
-"Criminal Law":"digital marketing",
-"Property Law":"two factor authentication",
-"Employment Law":"payment integration",
-"Financial Law":"customer reviews & ratings"
+    "Family Law": "Family Law",
+"Business Law": "Business Law",
+"Insurance Law":"Insurance Law",
+"Criminal Law":"Criminal Law",
+"Property Law":"Property Law",
+"Employment Law":"Employment Law",
+"Financial Law":"Financial Law"
   },
-  "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
+  "message": "We provide trusted legal advice, consultation, and representation across a wide range of practice areas, with a focus on protecting our clients' rights and interests."
 },
 
-  "case_studies":{"form":{
+
+"case_studies": {
+  "form": {
     "Motor Vehicle Accident": "Motor Vehicle Accident",
-"Family & Health Law": "Family & Health Law",
-"Insurance Disputes":"Insurance Disputes",
-"Business & Insolvency Law":"Business & Insolvency Law"
+    "Family & Health Law": "Family & Health Law",
+    "Insurance Disputes": "Insurance Disputes",
+    "Business & Insolvency Law": "Business & Insolvency Law"
   },
-  "message":"We offer AI Chatbot, Smart Booking, QR Code, ERP, HRMS, Payroll, Ticket Management, and more."
+  "message": "We provide professional legal consultation, representation, and guidance across a wide range of legal matters, with a focus on protecting our clients' rights and interests."
 },
+
+
 
   "home":{"form":{
     "Practice Areas": "practice_areas",
@@ -85,7 +89,7 @@
 
 "About US":"abirami"
   },
-  "message":"Hello 👋 I'am Abi AI Assistant. How can I help you today?"
+  "message":"Hello 👋 I'm Abi AI Assistant. How can I help you today?"
 },
 
   "default": "I'm not fully sure I understood that 🤔 Could you please rephrase or ask about services, pricing, practice areas or case studies?",
